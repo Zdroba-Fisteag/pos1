@@ -4,9 +4,9 @@ Tell the reader (someone who does not know anything about this project)
 all they need to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Student
+PURPOSE OF PROJECT: School
+VERSION or DATE: 02.09.2025 - ongoing
+HOW TO START THIS PROJECT: Download the files and start BlueJ
+AUTHORS: Me
+USER INSTRUCTIONS: As long as it works, you're good to go

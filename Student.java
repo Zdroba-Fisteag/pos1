@@ -39,7 +39,7 @@ public class Student {
         this.cm = cm;
     }
     public void setGender (char gen) {
-        if (gen != 'm' && gen != 'f') {
+        if (gen != 'm' && gen != 'w') {
             throw new IllegalArgumentException("Was du geni?");
         }
         this.gender = gen;

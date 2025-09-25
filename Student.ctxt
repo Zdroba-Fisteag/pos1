@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Student
+comment1.params=
+comment1.target=void\ NewPers()
+comment10.params=
+comment10.target=java.lang.String\ printStudent()
+comment11.params=
+comment11.target=java.lang.String\ fatOrNot()
+comment2.params=name
+comment2.target=void\ setName(java.lang.String)
+comment3.params=t\ a
+comment3.target=int\ work(java.lang.String,\ int)
+comment4.params=kilogramm
+comment4.target=void\ setKg(double)
+comment4.text=public\ double\ bmi()\ {\r\n\ \ \ \ \ \ \ \ this.kg\ \=\ kg;\r\n\ \ \ \ \ \ \ \ this.cm\ \=\ cm;\r\n\ \ \ \ \ \ \ \ return\ kg/((cm*cm)*(100*100));\r\n}
+comment5.params=cm
+comment5.target=void\ setCm(int)
+comment6.params=gen
+comment6.target=void\ setGender(char)
+comment7.params=name\ kg\ cm\ gender
+comment7.target=Student(java.lang.String,\ double,\ int,\ char)
+comment8.params=
+comment8.target=double\ bmi()
+comment9.params=
+comment9.target=java.lang.String\ mannOderFrau()
+numComments=12

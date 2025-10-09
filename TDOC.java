@@ -20,9 +20,11 @@ public class TDOC {
                     "Eleven pipers piping",
                     "Twelve drummers drumming"
             };
-            System.out.println(goodluck[i]);
-            // for (int j = 0; j < 11; j++) {
-            // }
+            for (int j = 0; j <= 11; j++) {
+                String strang = "";
+                strang = strang + goodluck[j];
+                System.out.println(strang);
+            }
             System.out.println();
         }
         return "Hello World";

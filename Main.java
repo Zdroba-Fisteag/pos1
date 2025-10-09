@@ -2,7 +2,9 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Java is doing its job");
         TDOC first = new TDOC();
-        System.out.println(first.song());
+        // System.out.println(first.song());
+        square quad = new square();
+        quad.quadrat(10);
         // fizzbuzz();
     }
 

@@ -1,12 +1,20 @@
 public class square {
-    public static void quadrat(int r) {
-        for (int i = 1; i <= r; i++) {  // Zeilen
-            for (int j = 1; j <= r; j++) {   // Spalten
-                if (i != j) {
-                    System.out.print("");
-                } else {
+    public static void quadrat(int lim) {
+        for (int ze = 1; ze <= lim; ze++) { // Zeilen
+            for (int sp = 1; sp <= lim; sp++) { // Spalten
+                if (ze == lim || sp == lim || ze == 1 || sp == 1) {
                     System.out.print("#");
+                } else if (ze == sp) {
+                    System.out.print("#");
+                } else {
+                    System.out.print(" ");
                 }
+                // if (ze != sp) {
+                // System.out.print(" ");
+                // }
+                // // else {
+                // // System.out.print("#");
+                // // }
             }
             System.out.println();
         }

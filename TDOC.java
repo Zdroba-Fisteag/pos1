@@ -16,18 +16,15 @@ public class TDOC {
                 "Eleven pipers piping",
                 "Twelve drummers drumming"
         };
-        for (int i = 0; i <= 11; i++) {
-            // String onthe = "";
+        for (int i = 0; i <= ftt.length - 1; i++) {
             System.out.println("On the " + ftt[i] + " day of Christmas");
             System.out.println("My true love sent to me:");
-            // for (int j = 0; j <= 11; j++) {
-            for (int j = i; j <= 11; j++) {
+            for (int j = i; j <= goodluck.length - 1; j++) {
                 String strang = "";
                 strang = strang + goodluck[j] + "\n";
                 System.out.print(strang);
             }
             System.out.println();
-            // }
         }
         return "Hello World";
     }

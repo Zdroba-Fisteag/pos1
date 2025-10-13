@@ -1,11 +1,19 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Java is doing its job");
-        TDOC first = new TDOC();
-        System.out.println(first.song());
+        // TDOC first = new TDOC();
+        // System.out.println(first.song());
         square quad = new square();
-        // quad.quadrat(20);
+        quad.quadrat(20);
         // fizzbuzz();
+        kxd fx = new kxd();
+        fx.den1();
+        System.out.println("----");
+        fx.den2();
+        System.out.println("----");
+        fx.den3();
+        System.out.println("----");
+        fx.den4(); // Ik, very repetitive
     }
 
     public static void fizzbuzz() {

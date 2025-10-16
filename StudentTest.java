@@ -28,7 +28,7 @@ public class StudentTest
     @BeforeEach
     public void setUp()
     {
-        System.out.println("Before");
+        //a
     }
     @Test
     public void Test_fatOrNot() {
@@ -62,6 +62,19 @@ public class StudentTest
         Student s3m = new Student("Marion", 10, 200, 'w');
         assertEquals(2.5, s3m.bmi(), 0.1, "Erwartet is 2.5");
     }
+    @Test
+    public void testFalscherNameThrows() {
+        Student stud;
+        try {
+            stud = new Student("Sewe", 150, 200, 'w');
+            stud = new Student("Marie", 150, 200, 'w');
+            stud = new Student("Eduard", 150, 200, 'w');
+            // fail("Student wurde trotz Fehler erzeugt...");
+        }
+        catch (IllegalArgumentException e) {
+            System.out.println("Exception empfangen: " + e.getMessage());
+        }
+    }
     /**
      * Tears down the test fixture.
      *
@@ -70,6 +83,6 @@ public class StudentTest
     @AfterEach
     public void tearDown()
     {
-        System.out.println("After");
+        //a
     }
 }
